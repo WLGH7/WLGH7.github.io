@@ -652,10 +652,10 @@ enableEmoji = true
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme test"
-          typeit = true
+          avatarURL = "/images/IMG_1880.JPG"
+          title = "Runchen Wang's Blog"
+          subtitle = "test/test/test"
+          typeit = false
           social = true
           disclaimer = ""
       [languages.en.params.social]
