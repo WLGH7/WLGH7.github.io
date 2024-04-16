@@ -1,12 +1,12 @@
 baseURL = "https://wlgh7.github.io"
 
 # theme
-theme = "WLGH7"
+theme = "keepit"
 # themes directory
 # themesDir = "../.."
 
 # website title
-title = "KeepIt"
+title = "WLGH7"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
