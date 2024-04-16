@@ -33,8 +33,8 @@ enableEmoji = true
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Runchen Wang"
+  email = "runchen_wang@163.com"
   link = ""
 
 # Menu config
