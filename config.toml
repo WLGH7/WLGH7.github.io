@@ -6,7 +6,7 @@ theme = "keepit"
 # themesDir = "../.."
 
 # website title
-title = "WLGH7"
+title = "Runchen Wang"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
