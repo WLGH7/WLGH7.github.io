@@ -17,7 +17,7 @@ languageName = "English"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 
-# default amount of posts in each pages
+#  分页配置 default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
@@ -50,9 +50,9 @@ enableEmoji = true
   # date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "KeepIt"
-  # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Hugo theme - KeepIt"
+  title = "Runchen Wang "
+  # 网站描述 分享其它网站的时候显示 website description for RSS, SEO, Open Graph and Twitter Cards 
+  description = "Runchen Wang blog"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -154,27 +154,27 @@ enableEmoji = true
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = true
-      # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
-      # URL of avatar shown in home page
-      avatarURL = "/images/IMG_1880.JPG"
-      # title shown in home page (HTML format is supported)
-      title = ""
-      # subtitle shown in home page
-      subtitle = "yezhiming"
-      # whether to use typeit animation for subtitle
-      typeit = true
-      # whether to show social links
-      social = true
-      # disclaimer (HTML format is supported)
-      disclaimer = ""
+        enable = true
+        # Gravatar Email for preferred avatar in home page
+        gravatarEmail = ""
+        # URL of avatar shown in home page
+        avatarURL = "/images/IMG_1880.JPG"
+        # title shown in home page (HTML format is supported)
+        title = ""
+        # subtitle shown in home page
+        subtitle = "yezhiming"
+        # whether to use typeit animation for subtitle
+        typeit = true
+        # whether to show social links
+        social = true
+        # disclaimer (HTML format is supported)
+        disclaimer = ""
     # Home page posts
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6
-  # Social config in home page
+  # 社交网站的配置信息 Social config in home page
   [params.social]
     GitHub = ""
     Linkedin = ""
@@ -241,7 +241,7 @@ enableEmoji = true
     Email = ""
     RSS = ""
 
-  # Page global config
+  # 页面通用配置 Page global config
   [params.page]
     # whether to hide a page from home page
     hiddenFromHomePage = false
@@ -548,187 +548,3 @@ enableEmoji = true
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
-# Multilingual
-[languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/Fastbyte01/KeepIt"
-        title = "GitHub"
-    [languages.en.params]
-      [languages.en.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/IMG_1880.JPG"
-          title = "Runchen Wang's Blog"
-          subtitle = "test/test/test"
-          typeit = false
-          social = true
-          disclaimer = ""
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
-
-  [languages.zh-cn]
-    weight = 2
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/Fastbyte01/KeepIt"
-        title = "GitHub"
-    [languages.zh-cn.params]
-      [languages.zh-cn.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.zh-cn.params.home]
-        rss = 10
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        RSS = true
